@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import todo from "../Images/todo.svg";
+import todo from "./todo.svg";
+
 
 // to get the data from LS
-
 const getLocalItmes = () => {
         let list = localStorage.getItem('lists');
         console.log(list);
