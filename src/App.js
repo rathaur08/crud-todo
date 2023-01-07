@@ -1,10 +1,13 @@
 import React from 'react'
+import Todo from './component/Todo';
+import "./component/Todo.css";
+
 
 const App = () => {
   return (
-    <div>
-      <h1>CRUD TODO</h1>
-    </div>
+    <>
+      <Todo/>
+    </>
   )
 }
 
